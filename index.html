@@ -1,4 +1,4 @@
-<! html>
+<!doctype html>
 <html lang="id">
 <head>
 <meta charset="utf-8">
@@ -300,7 +300,6 @@ textarea.field{min-height:190px;resize:vertical;line-height:1.5;font-family:ui-m
 body{padding-block:clamp(8px,1.6dvh,14px);padding-left:max(var(--pad),env(safe-area-inset-left,0px));padding-right:max(var(--pad),env(safe-area-inset-right,0px))}
 .app{gap:var(--gap);--dock:calc(var(--tb) + var(--gap) + 10px)}
 .app.has-mini{--dock:calc(var(--tb) + var(--gap) + var(--mh) + 18px)}
-.app{transition:padding-bottom .5s cubic-bezier(.32,.72,0,1)}
 @media not all and (min-width:900px) and (min-height:560px){
   .app.fold,.app.fold.has-mini{--dock:calc(var(--tb) + var(--gap) + 10px)}
 }
@@ -312,6 +311,7 @@ body{padding-block:clamp(8px,1.6dvh,14px);padding-left:max(var(--pad),env(safe-a
 .th{width:clamp(44px,13vw,52px);height:clamp(44px,13vw,52px)}
 .meta b{font-size:clamp(14px,4vw,15.5px)}
 .player{gap:clamp(10px,2.2dvh,18px);padding:clamp(12px,2.6dvh,22px) clamp(18px,6vw,26px) clamp(14px,2.6dvh,26px)}
+.cover{width:min(100%,340px,) clamp(14px,2.6dvh,26px)}
 .cover{width:min(100%,340px,42dvh);border-radius:clamp(22px,8vw,30px)}
 .ttl h2{font-size:clamp(19px,5.8vw,24px)}
 .ttl p{font-size:clamp(14px,4vw,16px)}
